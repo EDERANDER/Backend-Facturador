@@ -1,4 +1,4 @@
-package com.sistemas.facturador.models.numeracion;
+package com.sistemas.facturador.models;
 
 
 public class NumeracionComprobante {

@@ -1,6 +1,7 @@
 package com.sistemas.facturador.services;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.sistemas.facturador.models.NumeracionHistorial;
 import com.sistemas.facturador.repositories.NumeracionHistorialRepository;
 import kong.unirest.HttpResponse;
 import kong.unirest.Unirest;

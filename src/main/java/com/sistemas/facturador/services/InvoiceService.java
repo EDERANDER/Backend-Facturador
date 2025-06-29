@@ -1,7 +1,7 @@
-package com.sistemas.facturador.models;
+package com.sistemas.facturador.services;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.sistemas.facturador.models.numeracion.NumeracionComprobante;
-import com.sistemas.facturador.services.NumeracionService;
+import com.sistemas.facturador.models.InvoiceRequest;
+import com.sistemas.facturador.models.NumeracionComprobante;
 import kong.unirest.HttpResponse;
 import kong.unirest.Unirest;
 import org.springframework.beans.factory.annotation.Value;

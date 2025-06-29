@@ -11,6 +11,7 @@
 	<groupId>com.sistemas</groupId>
 	<artifactId>facturador</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>facturador</name>
 	<description>Proyecto facturador con la sunat</description>
 	<url/>
@@ -70,9 +71,8 @@
 		<dependency>
 			<groupId>com.konghq</groupId>
 			<artifactId>unirest-java</artifactId>
-			<version>3.13.6</version>
+			<version>3.14.5</version>
 		</dependency>
-
 
 		<!-- Unirest para consumir APIs externas (opcional) -->
 		<dependency>

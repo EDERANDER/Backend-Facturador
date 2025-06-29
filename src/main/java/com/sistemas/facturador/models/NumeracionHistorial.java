@@ -1,4 +1,4 @@
-package com.sistemas.facturador.services;
+package com.sistemas.facturador.models;
 
 
 import jakarta.persistence.*;

@@ -1,6 +1,7 @@
 package com.sistemas.facturador.services;
 import com.sistemas.facturador.models.InvoiceRequest;
-import com.sistemas.facturador.models.numeracion.NumeracionComprobante;
+import com.sistemas.facturador.models.NumeracionHistorial;
+import com.sistemas.facturador.models.NumeracionComprobante;
 import com.sistemas.facturador.repositories.NumeracionHistorialRepository;
 import com.sistemas.facturador.repositories.NumeracionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,7 +27,7 @@ public class NumeracionService {
             throw new IllegalArgumentException("Tipo de documento no soportado: " + tipoDoc);
         }
 
-        String serieActual = prefijo + "201";
+        String serieActual = prefijo + "202";
 
         Numeracion numeracion = numeracionRepository
                 .findByTipoDocumentoAndSerie(tipoDoc, serieActual)

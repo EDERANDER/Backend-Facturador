@@ -1,7 +1,7 @@
-package com.sistemas.facturador.Controllers;
+package com.sistemas.facturador.controllers;
 
 import com.sistemas.facturador.models.InvoiceRequest;
-import com.sistemas.facturador.models.InvoiceService;
+import com.sistemas.facturador.services.InvoiceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
